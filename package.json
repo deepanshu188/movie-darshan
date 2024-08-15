@@ -1,0 +1,23 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxt/image": "^1.7.0",
+    "@pinia/nuxt": "^0.5.3",
+    "nuxt": "^3.12.4",
+    "vue": "latest"
+  },
+  "packageManager": "pnpm@8.10.2+sha1.e0b68270e89c817ff88b7be62466a2128c53af02",
+  "devDependencies": {
+    "@unocss/nuxt": "^0.62.1",
+    "unocss": "^0.62.1"
+  }
+}
